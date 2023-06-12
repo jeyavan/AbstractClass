@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Cow extends Animals {
-    //@Autowired
+    @Autowired
 	@Override
 	public void animalSound() {
 		System.out.println("Cow extends: ");
